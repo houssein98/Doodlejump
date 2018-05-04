@@ -5,5 +5,5 @@ list(APPEND CMAKE_SYSTEM_FRAMEWORK_PATH /Library/Frameworks) #Mac, why not auto?
 find_package(Imagine REQUIRED)
 
 project(DoodleJump)
-add_executable(DoodleJump main.cpp player.cpp platform.cpp)
+add_executable(DoodleJump main.cpp player.cpp platform.cpp utils.cpp)
 ImagineUseModules(DoodleJump Graphics)
